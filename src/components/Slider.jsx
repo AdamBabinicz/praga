@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 import "./Slider.css";
 import ImgComp from "./ImgComp";
-import i1 from "../img/9.jpg";
-import i2 from "../img/15.jpg";
-import i3 from "../img/21.jpg";
-import i4 from "../img/25.jpg";
-import i5 from "../img/34.jpg";
-import i6 from "../img/35.jpg";
+// import i1 from "../img/9.jpg";
+// import i2 from "../img/15.jpg";
+// import i3 from "../img/21.jpg";
+// import i4 from "../img/25.jpg";
+// import i5 from "../img/34.jpg";
+// import i6 from "../img/35.jpg";
 import i7 from "../img/4.jpg";
 import i8 from "../img/3.jpg";
 import i9 from "../img/5.jpg";
-import i10 from "../img/6.jpg";
-import i11 from "../img/8.jpg";
+// import i10 from "../img/6.jpg";
+// import i11 from "../img/8.jpg";
 import i12 from "../img/11.jpg";
 import i13 from "../img/14.jpg";
 import i14 from "../img/20.jpg";
@@ -46,17 +46,17 @@ import i42 from "../img/49.jpg";
 
 function Slider() {
   let sliderArr = [
-    <ImgComp src={i1} />,
-    <ImgComp src={i2} />,
-    <ImgComp src={i3} />,
-    <ImgComp src={i4} />,
-    <ImgComp src={i5} />,
-    <ImgComp src={i6} />,
+    // <ImgComp src={i1} />,
+    // <ImgComp src={i2} />,
+    // <ImgComp src={i3} />,
+    // <ImgComp src={i4} />,
+    // <ImgComp src={i5} />,
+    // <ImgComp src={i6} />,
     <ImgComp src={i7} />,
     <ImgComp src={i8} />,
     <ImgComp src={i9} />,
-    <ImgComp src={i10} />,
-    <ImgComp src={i11} />,
+    // <ImgComp src={i10} />,
+    // <ImgComp src={i11} />,
     <ImgComp src={i12} />,
     <ImgComp src={i13} />,
     <ImgComp src={i14} />,
