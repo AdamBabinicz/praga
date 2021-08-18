@@ -65,6 +65,7 @@ const App = () => {
             </Container>
             <Container>
               <Slider />
+              <IntoShape />
             </Container>
           </Route>
           <Route path="/próg" component={Feature}>
