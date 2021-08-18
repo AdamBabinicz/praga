@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
+
 export const SidebarContainer = styled.aside`
   width: 100%;
   height: 100%;
@@ -45,6 +46,10 @@ export const SidebarLink = styled(LinkR)`
   gap: 2rem;
   cursor: pointer;
   margin: 1rem 2rem;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 1rem;
+  }
 
   &:hover {
     color: #fff;
