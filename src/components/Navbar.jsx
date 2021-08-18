@@ -10,7 +10,7 @@ const Container = styled.div`
   /* background: ${({ scrollNav }) => (scrollNav ? "#c7991c" : "#003")}; */
   width: 100%;
   height: 65px;
-  position: fixed;
+  position: relative;
   z-index: 10;
 `;
 const Wrapper = styled.div`
@@ -41,9 +41,12 @@ const MobileIcon = styled.div`
   display: none;
   @media (max-width: 768px) {
     display: block;
+    transform: translateX(550%);
     color: #000;
+    color: red;
     font-size: 2.4rem;
     text-align: right;
+    position: fixed;
   }
 `;
 const MenuItem = styled(LinkR)`
