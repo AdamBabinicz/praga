@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import styled, { css } from "styled-components";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
-import Slider from "./components/Slider";
 import Feature from "./components/Feature";
 import Service from "./components/Service";
 import Price from "./components/Price";
@@ -54,45 +53,37 @@ const App = () => {
   };
   return (
     <>
+      <Sidebar toggle={toggle} isOpen={isOpen} />
       <Router>
-        <Sidebar toggle={toggle} isOpen={isOpen} />
-        <Navbar toggle={toggle} />
+        <Container>
+          <Navbar toggle={toggle} />
+          <Intro />
+          <IntoShape />
+        </Container>
+        <Container>
+          <Feature />
+          <FeatureShape />
+        </Container>
+        <Container>
+          <Service />
+          {!smallScreen && <ServiceShape />}
+        </Container>
+        <Container>
+          <Price />
+          <PriceShape />
+        </Container>
+        <Container>
+          <Contact />
+          <Footer />
+        </Container>
 
         <Switch>
-          <Route path="/" exact component={Intro}>
-            <Container>
-              <Intro />
-              <IntoShape />
-            </Container>
-            <Container>
-              <Slider />
-            </Container>
-          </Route>
-          <Route path="/próg" component={Feature}>
-            <Container>
-              <Feature />
-              <FeatureShape />
-            </Container>
-          </Route>
-          <Route path="/waluta" component={Price}>
-            <Container>
-              <Price />
-              <PriceShape />
-            </Container>
-          </Route>
-          <Route path="/kontakt" component={Contact}>
-            <Container>
-              <Contact />
-            </Container>
-          </Route>
-          <Route path="/miasto" exact component={Service}>
-            <Container>
-              <Service />
-              {!smallScreen && <ServiceShape />}
-            </Container>
-          </Route>
+          {/* <Route path="/" exact component={Intro} />
+          <Route path="/próg" component={Feature}></Route>
+          <Route to="/miasto" component={Service} />
+          <Route to="/Price" component={Price} />
+          <Route to="/Contact" component={Contact} /> */}
         </Switch>
-        <Footer />
       </Router>
     </>
   );
