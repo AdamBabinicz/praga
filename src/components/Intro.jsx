@@ -61,6 +61,9 @@ const Info = styled.div`
   }
 `;
 const Button = styled.button`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 15px;
   background: #c7991c;
   color: #fff;

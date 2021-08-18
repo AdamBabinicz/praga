@@ -41,7 +41,7 @@ const MobileIcon = styled.div`
   display: none;
   @media (max-width: 768px) {
     display: block;
-    transform: translateX(550%);
+    transform: translateX(540%);
     color: #333;
     font-size: 2.4rem;
     text-align: right;
