@@ -5,7 +5,7 @@ import Phone from "../img/phone.png";
 import Send from "../img/send.png";
 
 const Container = styled.div`
-  height: 100%;
+  height: 100vh;
   background: url("/img/12.jpg") center/cover no-repeat fixed;
 `;
 const Wrapper = styled.div`

@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import Sidebar from "./components/Sidebar";
 
 const Container = styled.div`
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   position: relative;
 `;
@@ -57,7 +57,6 @@ const App = () => {
       <Router>
         <Sidebar toggle={toggle} isOpen={isOpen} />
         <Navbar toggle={toggle} />
-
         <Switch>
           <Route path="/" exact component={Intro}>
             <Container>

@@ -6,7 +6,7 @@ import Img1 from "../img/17.png";
 import Img2 from "../img/12.jpg";
 
 const Container = styled.div`
-  height: 100%;
+  height: 100vh;
   display: flex;
   padding: 0 30px;
   align-items: center;
