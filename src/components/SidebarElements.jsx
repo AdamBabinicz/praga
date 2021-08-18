@@ -20,7 +20,7 @@ export const CloseIcon = styled(FaTimes)`
 export const Icon = styled.div`
   position: absolute;
   top: 2rem;
-  right: 4rem;
+  right: 2rem;
   font-size: 2.3rem;
   outline: none;
   background: transparent;
@@ -48,7 +48,7 @@ export const SidebarLink = styled(LinkR)`
   margin: 1rem 2rem;
 
   @media only screen and (max-width: 480px) {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   &:hover {

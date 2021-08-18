@@ -22,6 +22,10 @@ const List = styled.ul`
   padding: 0;
   margin: 0;
   list-style: none;
+
+  @media only screen and (max-width: 480px) {
+    padding-bottom: 1.5rem;
+  }
 `;
 const ListItems = styled(LinkS)`
   margin-right: 20px;
@@ -34,6 +38,7 @@ const ListItems = styled(LinkS)`
 const Copyright = styled.span`
   @media only screen and (max-width: 480px) {
     font-size: 14px;
+    padding-bottom: 1rem;
   }
 `;
 
