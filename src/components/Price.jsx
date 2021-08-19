@@ -70,7 +70,7 @@ const Price = ({ button }) => {
         <PriceCard
           price="💰"
           type="🎯"
-          desc="Poprzednio były także w obiegu banknoty o nominałach 20 Kč (wycofany z dniem 31 sierpnia 2008), 50 Kč (wycofany został 1 kwietnia 2011), W październiku 2003 wycofano z obiegu monety 10 halerzy i 20 halerzy. Monetę o nominale 50 halerzy wycofano z obiegu w dniu 31 sierpnia 2009. Wartość 50 Kč występowała w postaci monety i banknotu do 1 kwietnia 2011."
+          desc="Poprzednio były także w obiegu banknoty o nominałach 20 Kč (wycofany z dniem 31 sierpnia 2008), 50 Kč (wycofany został 1 kwietnia 2011), W październiku 2003 wycofano z obiegu monety 10 halerzy i 20 halerzy. Monetę o nominale 50 halerzy wycofano z obiegu w dniu 31 sierpnia 2009."
         />
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <h3>{state.title}</h3>
