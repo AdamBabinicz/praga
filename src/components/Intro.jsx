@@ -44,8 +44,10 @@ const Desc = styled.p`
   font-size: 20px;
   margin-top: 20px;
   color: gray;
+
   @media only screen and (max-width: 480px) {
     width: 100%;
+    font-size: 16px;
     /* text-shadow: 0.05rem 0.05rem 0.05rem rgba(0, 0, 0, 0.21); */
   }
 `;

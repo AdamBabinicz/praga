@@ -65,6 +65,10 @@ const Title = styled.h2`
 const Desc = styled.p`
   font-size: 20px;
   margin-top: 20px;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `;
 const CardConteiner = styled.div`
   display: flex;
