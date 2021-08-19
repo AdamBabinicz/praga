@@ -95,7 +95,7 @@ const Feature = () => {
         </Title>
         <SubTitle>
           Według tradycji oryginalna czeska nazwa miasta Praha pochodzi od
-          czeskiego słowa práh – próg i jest związana z księżniczką Libuszą.
+          czeskiego słowa práh – próg ... .
         </SubTitle>
         <Desc>
           Pierwsze plemiona słowiańskie przybyły na te tereny ok. 500 roku.
