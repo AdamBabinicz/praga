@@ -44,10 +44,18 @@ const SubTitle = styled.span`
   font-size: 24px;
   font-style: italic;
   margin-top: 30px;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 `;
 const Desc = styled.p`
   font-size: 20px;
   margin-top: 30px;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 16px;
+  }
 `;
 const Button = styled.button`
   width: 150px;
