@@ -36,8 +36,8 @@ const Button = styled.button`
     opacity: 0.5;
   }
   @media only screen and (max-width: 480px) {
-    font-size: 12px;
-    padding: 5px;
+    /* font-size: 12px;
+    padding: 5px; */
   }
 `;
 
