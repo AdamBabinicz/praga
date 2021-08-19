@@ -31,7 +31,7 @@ const Button = styled.button`
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s;
-  z-index: 999;
+  /* z-index: 999; */
   &:hover {
     opacity: 0.5;
   }
