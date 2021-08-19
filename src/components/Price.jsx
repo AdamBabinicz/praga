@@ -22,10 +22,11 @@ const Button = styled.button`
   top: 90%;
   left: 50%;
   transform: translate(-50%);
-  background: #4e8cff;
+  background: #c7991c;
   color: #fff;
   font-size: 16px;
   font-weight: bold;
+  letter-spacing: 2px;
   padding: 15px;
   border-radius: 10px;
   cursor: pointer;
