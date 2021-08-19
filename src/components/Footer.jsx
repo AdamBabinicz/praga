@@ -24,7 +24,7 @@ const List = styled.ul`
   list-style: none;
 
   @media only screen and (max-width: 480px) {
-    padding-bottom: 1.5rem;
+    padding-bottom: 1rem;
   }
 `;
 const ListItems = styled(LinkS)`
