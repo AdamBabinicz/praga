@@ -48,7 +48,7 @@ const Price = ({ button }) => {
     title: "Czech koruna (koruna česká)",
     img: Img1,
     img1: Img2,
-    em: "https://pl.wikipedia.org/wiki/Praga",
+    em: "pl.wikipedia.org/wiki/Praga",
     // title1: "5 tys.",
     // img1: Img2,
   });
