@@ -101,7 +101,7 @@ const Feature = () => {
           <br />
           <img src={state.img} alt="..." /> <br />
           <p>{state.p0}</p>
-          <em>{state.em}</em>
+          <em style={{ fontSize: "15px" }}>{state.em}</em>
           <br />
         </Popup>
       </Right>

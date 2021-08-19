@@ -77,7 +77,7 @@ const Price = ({ button }) => {
           <img src={state.img} alt="..." style={{ width: 300 }} /> <br />
           <img src={state.img1} alt="..." style={{ width: 300 }} />
           <p>{state.p0}</p>
-          <em>{state.em}</em>
+          <em style={{ fontSize: "15px" }}>{state.em}</em>
           <br />
         </Popup>
         {/* <Popup trigger={buttonPopup1} setTrigger={setButtonPopup1}>
