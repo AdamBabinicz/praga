@@ -102,7 +102,7 @@ const Intro = () => {
     title: "",
     img: Img1,
     p0: "„Praga jest uważana za jedno z najbardziej atrakcyjnych miast Europy, z tego względu corocznie odwiedzają ją liczne rzesze turystów. W mieście znajduje się ponad 20 muzeów i prawie 100 galerii. Niektórymi z atrakcji turystycznych są: Hradczany z zamkiem oraz gotycką katedrą św. Wita, św. Wacława i św. Wojciecha (św. Adalberta); Złota Uliczka; Malá Strana – pełna kościołów, pałaców i ogrodów oraz urokliwych uliczek; barokowy kościół św. Mikołaja z XVIII wieku na Malostranské náměstí; Loreta; Stare Miasto na prawym brzegu Wełtawy; Ratusz Staromiejski (XIV wiek) ze słynnym zegarem astronomicznym Orloj na Staroměstské náměstí;”.",
-    em: "https://pl.wikipedia.org/wiki/Praga",
+    em: "pl.wikipedia.org/wiki/Praga",
   });
 
   return (
